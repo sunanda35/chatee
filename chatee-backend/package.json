@@ -7,7 +7,17 @@
     "start": "NODE_ENV=production tsc && node dist/app.js",
     "dev": "NODE_ENV=development nodemon src/app.ts"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunanda35/chatee.git"
+  },
+  "keywords": [
+    "chatee",
+    "chrome",
+    "chrome-extension",
+    "browser",
+    "browser-extension"
+  ],
   "author": "Sunanda Samanta",
   "license": "MIT",
   "devDependencies": {
