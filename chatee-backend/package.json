@@ -1,15 +1,15 @@
 {
   "name": "chatee-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "chatee Backend app",
   "main": "dist/app.js",
   "scripts": {
     "start": "NODE_ENV=production tsc && node dist/app.js",
     "dev": "NODE_ENV=development nodemon src/app.ts"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Sunanda Samanta",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^8.5.0",
     "nodemon": "^2.0.15",
