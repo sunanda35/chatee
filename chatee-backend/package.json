@@ -1,0 +1,22 @@
+{
+  "name": "chatee-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "NODE_ENV=production tsc && node dist/app.js",
+    "dev": "NODE_ENV=development nodemon src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.5.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "ts-node": "^10.4.0"
+  }
+}
