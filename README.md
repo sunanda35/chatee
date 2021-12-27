@@ -1,13 +1,16 @@
 # chatee
 
-## fucking extension
+A new Flutter project.
 
-#### so fuck the fuckers
+## Getting Started
 
-## this is a multi-purpose communication project, all your browsers and mobiles can communicate together and share information.
+This project is a starting point for a Flutter application.
 
-- chatee => chatee mobile application
-- chatee-backend => chatee backend code
-- chatee-extension => chatee extension app for browsers
+A few resources to get you started if this is your first Flutter project:
 
-#### so all our motherfuckers, if you don't like this project, go and fuck yourself!
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
