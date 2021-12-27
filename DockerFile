@@ -1,0 +1,21 @@
+FROM node:16
+WORKDIR /usr/src/chatee-backend
+
+# take dependency list
+COPY package*.json ./
+
+RUN npm i -g npm
+
+# install package
+RUN npm install
+
+# Bundle app source
+COPY . .
+
+# Building the code
+RUN npm run build
+
+EXPOSE 4000
+
+EXPOSE 8080
+CMD [ "node", "build/src/app.js" ]
