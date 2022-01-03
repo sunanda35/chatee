@@ -8,6 +8,8 @@
   },
   "browser_action": {
     "default_icon": "logo512.png",
-    "default_popup": "popup.html"
-  }
+    "default_popup": "index.html",
+    "default_title":"Chatty"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
